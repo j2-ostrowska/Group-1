@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #1c1d26;
+		background: #49675B;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -347,7 +347,7 @@ input, select, textarea {
 		}
 
 		99% {
-			color: #1c1d26;
+			color: ;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
