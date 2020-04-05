@@ -84,6 +84,9 @@
 			  background-color: #5cb85c;
 			  color: white;
 			}
+            #calendar{
+			text-align: center;
+			}
 			</style>
 	</head>
 	<body class="is-preload landing">
@@ -119,35 +122,36 @@
 								</ul>
 							</li>
 							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button primary" id="myBtn">Sign Up</a></li>
+							<li><a href="#" class="button primary" id="myBtn">Sign In</a></li>
 						
 							<!-- The Modal -->
 <div id="myModal" class="modal">
 
 	<!-- Modal content -->
 	<div class="modal-content">
-	  <div class="modal-header">
-		<span class="close">&times;</span>
-		<h2>Sing up</h2>
+		<div class="modal-header">
+		  <span class="close">&times;</span>
+		  <h2>Sign In</h2>
+		</div>
+		<div class="modal-body">
+		  <form method="post" action="#">
+			  <div class="row gtr-uniform gtr-50" >
+				  <div class="col-6 col-12-xsmall">
+					  <input  type="text" name="name" id="name" value="" placeholder=" Email" />
+				  </div>
+				  <div class="col-6 col-12-xsmall">
+					  <input  type="text" name="name" id="name" value="" placeholder=" Password" />
+				  </div>
+		</div>
 	  </div>
-	  <div class="modal-body">
-		<form method="post" action="#">
-			<div class="row gtr-uniform gtr-50" >
-				<div class="col-6 col-12-xsmall">
-					<input  type="text" name="name" id="name" value="" placeholder=" E-mail" />
-				</div>
-				<div class="col-6 col-12-xsmall">
-					<input  type="text" name="name" id="name" value="" placeholder=" Password" />
-				</div>
-	  </div>
-	</div>
-	  <div class="modal-footer">
-		
-		<button type="button" class="btn btn-danger" data-dismiss="modal">Sign in</button>
-	  </div>
-
+		<div class="modal-footer">
+		  
+		  <a type="button" class="button" data-dismiss="modal">Sign in</a>
+		  <p>if you don't have an account<br><a href="member.html" class="button">Sign Up</a></p>
+		</div>
   
-  </div>
+	
+	</div>
   
   <script>
   // Get the modal
@@ -192,11 +196,12 @@
 							<div class="text-center container-fluid">
 								
 									<header>
+										<center>
 										<h2>Day trip to Mesa Verde National Park</h2>
 										<p>Mesa Verde is one of only 20 World Heritage Sites in North America.</p>
 									    <p>Mesa Verde National Park was established in 1906 to preserve and interpret the archeological heritage of the Ancestral Pueblo people who made it their home for over 700 years, from 600 to 1300 CE. Today, the park protects nearly 5,000 known archeological sites, including 600 cliff dwellings. These sites are some of the most notable and best preserved in the United States.</p>
 									    <p>The trip will take place within the month of May to Early October. In groups of 8, you will explore the Mountains seeing a variety of wildlife and beautiful waterfalls. 
-											Also, follow La Plata River to La Plata City which will lead to an old 1875 mining town for you to discover.</p>
+											Also, follow La Plata River to La Plata City which will lead to an old 1875 mining town for you to discover.</p></center>
 									</header>
 
 								</div>
@@ -256,17 +261,23 @@
 
 			<!-- seven -->
 			
-				
+				<p><br></p>
 					<div class="container">
-					<div class="box alt">
-						<div class="row gtr-uniform">
+					<div class="">
+						<div class="">
 							
 							
-							<section class="col-sm-12 col-lg-6 col-xl-6">
+							<section >
+								<div id="calendar">
 								<h2>Calendar </h2>
 								<h3>Find the best date for you and book the trip today!</h3>
-								<iframe  src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=anVsYW1hZ2RhbGVuYTJAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;title=Day%20trip%20schedule" style="border:solid 1px #777"  class=" container-fluid" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-								<div align="left">
+							
+								
+								
+								<iframe  src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=anVsYW1hZ2RhbGVuYTJAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;title=Day%20trip%20schedule" style="border:solid 1px #777;  "  width="800" height="600" frameborder="0" scrolling="no"></iframe>
+								</div>
+								<div align="center">
+									<p><br</p>
 									<ul class="alt">
 										<li>Adventure Level - Mild to moderate.</li>
 										<li>Location - Meet in Durango for a 30 minute drive to Mesa Verde</li>
@@ -288,7 +299,8 @@
 				
 				
 				<div class="table-wrapper container">
-					<h3>Ticket price</h3>
+					<center><h3>Ticket price</h3></center>
+					
 					<table>
 						<thead>
 							<tr>
